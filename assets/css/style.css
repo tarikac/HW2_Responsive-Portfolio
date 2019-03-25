@@ -158,14 +158,45 @@ textarea {
 /* Start Media Screens */
 /* Set Media Screen for a max width of 980ox*/
 @media screen and (max-width: 980px){
+    
 
 }
 /*Set Media Screen for a max width of 768px*/
 @media screen and (max-width: 768px){
+   body {
+       max-width: 768px;
+      
+   }
 
 }
 
 /*Set Media Screen for a max width of 640px*/
 @media screen and (max-width: 640px){
+    body {
+        max-width: 640px;
+        background-image: none;
+        
+    }
+   
+    header h1 {
+        float: none;
+        text-align: center;
+    }
     
+header div{
+    max-width: 640px;
 }
+
+
+ .container {
+        
+        max-width: 640px;
+        padding: 0;
+    }
+
+    nav {
+        float: left;
+        
+    }
+}
+
