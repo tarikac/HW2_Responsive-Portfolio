@@ -155,8 +155,10 @@ textarea {
     padding: 10px 15px 10px 15px;
 }
 
-/* Start Media Screens */
-/* Set Media Screen for a max width of 980ox*/
+/* Start Media Screens 
+issue with media queries may have to do with our a set up my original work. the pixels
+appear to be off on some pages and continues to scroll
+Set Media Screen for a max width of 980ox*/
 @media screen and (max-width: 980px){
     
 
@@ -167,6 +169,17 @@ textarea {
        max-width: 768px;
       
    }
+   header {
+       max-width: 768px;
+       padding: 15px 0px 15px 15px;
+       
+   }
+   header div {
+       width: 700px;
+   }
+   .container {
+       max-width: 700px;
+   }
 
 }
 
@@ -176,8 +189,9 @@ textarea {
         max-width: 640px;
         background-image: none;
         
+        
     }
-   
+
     header h1 {
         float: none;
         text-align: center;
@@ -185,18 +199,20 @@ textarea {
     
 header div{
     max-width: 640px;
-}
-
+} 
 
  .container {
-        
-        max-width: 640px;
-        padding: 0;
+        clear: both;
+        max-width: 75%;
+     
     }
 
     nav {
         float: left;
         
+    }
+    form {
+        width: 50%;
     }
 }
 
